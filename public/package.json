@@ -2,7 +2,6 @@
   "name": "covid-19",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://gaganevomorf2019.github.io/covid-19-indian-states",
   "dependencies": {
     "@ionic/react": "^5.0.0",
     "@ionic/react-router": "^5.0.0",
@@ -27,8 +26,6 @@
     "typescript": "3.7.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -49,8 +46,5 @@
       "last 1 safari version"
     ]
   },
-  "description": "An Ionic project",
-  "devDependencies": {
-    "gh-pages": "^2.2.0"
-  }
+  "description": "An Ionic project"
 }
