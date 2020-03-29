@@ -2,9 +2,31 @@
 http://ionicframework.com/docs/theming/ */
 
 /** Ionic CSS Variables **/
+.title {
+  color: #bbbbbb;
+  text-align: center;
+}
+
+ion-card{
+  background: #222428;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.stateCard {
+  display: inline-flex;
+}
+
+ion-card-header {
+  border-bottom: solid #383a3e 2px;
+  border-radius: 10px;
+}
+
+
 :root {
+
   /** primary **/
-  --ion-color-primary: #3880ff;
+  --ion-color-primary:  #383a3e;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
@@ -54,7 +76,7 @@ http://ionicframework.com/docs/theming/ */
   /** dark **/
   --ion-color-dark: #222428;
   --ion-color-dark-rgb: 34, 36, 40;
-  --ion-color-dark-contrast: #ffffff;
+  --ion-color-dark-contrast: #bbbbbb;
   --ion-color-dark-contrast-rgb: 255, 255, 255;
   --ion-color-dark-shade: #1e2023;
   --ion-color-dark-tint: #383a3e;
